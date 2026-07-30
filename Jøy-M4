@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy-M4</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e3a8a,#06b6d4);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.card{
+width:100%;
+max-width:380px;
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(15px);
+border-radius:25px;
+padding:30px;
+text-align:center;
+box-shadow:0 10px 35px rgba(0,0,0,.4);
+border:1px solid rgba(255,255,255,.2);
+}
+
+.profile{
+width:120px;
+height:120px;
+border-radius:50%;
+border:4px solid white;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+h1{
+color:#fff;
+font-size:32px;
+}
+
+.bio{
+color:#ddd;
+margin:12px 0 25px;
+font-size:15px;
+}
+
+.btn{
+display:block;
+text-decoration:none;
+background:white;
+color:#111;
+padding:15px;
+margin:12px 0;
+border-radius:15px;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#38bdf8;
+color:white;
+}
+
+footer{
+margin-top:20px;
+color:white;
+font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<img src="profile.jpg" class="profile" alt="Joy-M4">
+
+<h1>🚀 Joy-M4</h1>
+
+<p class="bio">
+🌍 Explore Bangladesh<br>
+🎥 Travel • Adventure • Lifestyle
+</p>
+
+<a class="btn" href="https://www.tiktok.com/@joy..x7?_r=1&_t=ZS-98SkEVW7tie" target="_blank">🎵 TikTok</a>
+
+<a class="btn" href="https://www.instagram.com/joy._.x7?igsh=MTY3czRhaWJsOWJwdg==" target="_blank">📸 Instagram</a>
+
+<a class="btn" href="https://www.facebook.com/share/1B1EbwsbDj/" target="_blank">👍 Facebook</a>
+
+<a class="btn" href="https://www.snapchat.com/add/joy_ahmed77?share_id=RxF8BmzV2Lc&locale=en-US" target="_blank">👻 Snapchat</a>
+
+<footer>
+⭐ Made with ❤️ by Joy-M4
+</footer>
+
+</div>
+
+</body>
+</html>
